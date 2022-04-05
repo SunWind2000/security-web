@@ -1,3 +1,8 @@
+/**
+ * @author https://github.com/SunWind2000/security-web/
+ * @description .eslintrc.js
+ */
+
 module.exports = {
   root: true,
   env: {
