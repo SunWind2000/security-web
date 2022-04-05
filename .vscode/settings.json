@@ -12,7 +12,7 @@
     "source.fixAll": true
   },
   // 保存时自动格式化代码
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   // 默认使用prettier格式化支持的文件
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // 指定 *.vue 文件的格式化工具为vetur，防止和prettier冲突

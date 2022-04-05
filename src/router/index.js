@@ -3,8 +3,8 @@ import HomeView from '../views/HomeView.vue';
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
+    path: '/index',
+    name: 'index',
     component: HomeView,
   },
   {
@@ -15,6 +15,10 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/AboutView.vue'),
+  },
+  {
+    path: '/',
+    redirect: '/index',
   },
 ];
 
